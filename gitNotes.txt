@@ -1,0 +1,29 @@
+What Does GIT do
+	- It manages projects with repositories
+	- You clone a project from a source and work on that clone/local copy
+	- Control and track changes with Staging and committing
+	- Branch and merge allow for different parts and versions of a project
+	- "Pull" pulls the latest version of the project to a local directory
+	- "Push" pushes local updates to the main project
+
+GIT NEW FILES
+	- "mkdir ____ " makes a new directory/file where ever you are
+`	- "touch ___.html" Will make a new html file, but you can switch the file extension out
+	- "git status" will tell you what files aren't added to the repository
+	- "git add --all" and "git add -A" will add all files in a directory, to be committed 
+
+COMMITTING NEW FILES
+	- git commit -m "blah blah blah blah" 
+		-> -m is for message, you should always have a message included with the commit.
+
+GIT HELP
+	- "git help -all" shows you all the possible commands
+	- "git command -help" shows you all the available options for the specific command
+	- "git help" is just very general
+
+WORKING WITH GIT BRANCHES
+	- A branch is a new/separate version of the main repository
+	- Edit code without impacting the live branch
+	- Can fix error and merge the error-free code with the main branch.
+	- "git branch ____" creates a branch named ____.
+	- "git checkout ____" switches us to another branch
